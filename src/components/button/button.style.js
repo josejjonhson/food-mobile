@@ -9,6 +9,7 @@ export const styles = {
     },
     btn: {
         width: "100%",
-        backgroundColor: COLORS.red
+        backgroundColor: COLORS.red,
+        borderRadius: 6
     }
 }

@@ -1,20 +1,10 @@
-
-import { Text, View } from 'react-native';
-import { styles } from "./style.js";
-import Button from './src/components/button/button.jsx';
+import Login from "./src/screens/login/login.jsx";
+import Registro from "./src/screens/registro/registro.jsx";
 
 export default function App() {
   
-  const nome = 'José';
-
-  return (<View>
-    <Text style={styles.textos}>Hello {nome}</Text>
-
-      <Button texto="Login" />
-      </View>
+  return (<>
+    <Registro />
+    </>
   );
 }
-
-
-// JSX tem a capacidade de mesclar códigos JS com outros recursos, tags
-// No JSX, quando eu quero trazer código JS no meio das tags eu tenho que utilizar {}
