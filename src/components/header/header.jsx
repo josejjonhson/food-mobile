@@ -1,6 +1,6 @@
 import { Image, Text, View } from "react-native";
-import { styles } from './header.style.js';
-import icons from '../../constants/icons.js';
+import { styles } from "./header.style.js";
+import icons from "../../constants/icons.js";
 
 function Header(props){
     return <View style={styles.header}>

@@ -1,8 +1,8 @@
-import { COLORS, FONT_SIZE } from "../../constants/theme.js"
+import { COLORS, FONT_SIZE } from "../../constants/theme.js";
 
 export const styles = {
     container:{
-        flex: 1, // Ocupar toda a tela
+        flex: 1,
         padding: 40,
         alignItems: "center",
         justifyContent: "center"
